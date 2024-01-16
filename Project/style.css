@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+
+body {
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Belanosima', sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+#wrap-user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrap-user-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+#wrap-post {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.wrap-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-block {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    background-color: #3b0505;
+    color: white;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    font-family: 'Belanosima', sans-serif;
+}
+
+.buttonPost {
+    margin-top: 20px;
+    width: 90%;
+    height: 35px;
+    background-color: #3b0505;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    font-family: 'Belanosima', sans-serif;
+}
+
+.postsList {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+}
+
+.post {
+    width: 18%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.comm-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+}
+
+.comm-single {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.buttonInfo {
+    background-color: #3b0505;
+    color: white;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px 0 rgba(95, 98, 102, 0.17);
+    font-family: 'Belanosima', sans-serif;
+}
